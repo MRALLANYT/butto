@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Premium - Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <header>
+            <h1>Botón Premium</h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+                <span class="theme-icon">🌓</span>
+            </button>
+        </header>
+
+        <section class="demo-section">
+            <h2>Demo</h2>
+            <button class="premium-button" id="demo-button">
+                <span class="button-text">Haz clic</span>
+                <span class="button-icon">→</span>
+            </button>
+        </section>
+
+        <section class="customization">
+            <h2>Personalización</h2>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="button-text">Texto del botón:</label>
+                    <input type="text" id="button-text" value="Haz clic" class="text-input">
+                </div>
+                
+                <div class="control-group">
+                    <label for="button-color">Color:</label>
+                    <input type="color" id="button-color" value="#4361ee">
+                </div>
+                
+                <div class="control-group">
+                    <label for="button-size">Tamaño:</label>
+                    <select id="button-size" class="select-input">
+                        <option value="small">Pequeño</option>
+                        <option value="medium" selected>Mediano</option>
+                        <option value="large">Grande</option>
+                    </select>
+                </div>
+    <label for="button-animation">Animación:</label>
+    <select id="button-animation" class="select-input">
+        <option value="pulse">Pulso</option>
+        <option value="bounce">Rebote</option>
+        <option value="float">Flotar</option>
+        <option value="shake">Sacudida</option>
+        <option value="tada">¡Tada!</option>
+        <option value="none" selected>Ninguna</option>
+    </select>
+</div>
+            </div>
+        </section>
+
+        <section class="how-to-use">
+            <h2>Cómo usar</h2>
+            <p>Incorpora este botón en tu proyecto con el siguiente código:</p>
+            <div class="code-block">
+                <pre><code class="html">&lt;button class="premium-button"&gt;
+    &lt;span class="button-text"&gt;Mi botón&lt;/span&gt;
+    &lt;span class="button-icon"&gt;→&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;script src="js/script.js"&gt;&lt;/script&gt;</code></pre>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
